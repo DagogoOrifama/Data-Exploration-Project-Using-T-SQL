@@ -2,7 +2,6 @@
 * File: Dagogo_Orifama.sql
 * Title: Data Exploration project in using TSQL
 * Author: Dagogo Orifama
-* StudentID: @00704109
 * Module: Advanced Databases
 * -------------------------------------------------------------------------------
 * *****************************************Description***************************
@@ -53,7 +52,7 @@ LIKE '%tablets%' OR BNF_DESCRIPTION LIKE '%capsules%'
 
 /*
 Question 2
-Write a query that returns the total quantity for each of prescriptions – this is given by
+Write a query that returns the total quantity for each of prescriptions â€“ this is given by
 the number of items multiplied by the quantity. Some of the quantities are not integer
 values and your client has asked you to round the result to the nearest integer value.
 */
@@ -94,7 +93,7 @@ Question 5
 Write a query that returns the most expensive prescription prescribed by each
 practice, sorted in descending order by prescription cost (the ACTUAL_COST column in
 the prescription table.) Return only those rows where the most expensive prescription
-is more than £4000. You should include the practice name in your result.
+is more than Â£4000. You should include the practice name in your result.
 */
 
 SELECT med.PRACTICE_NAME, pre.PRACTICE_CODE, 
